@@ -1,0 +1,102 @@
+body {
+  background-image: url("./Bilder/magischer-wald.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-family: "Arial", sans-serif;
+  text-shadow: 2px 2px 4px #010101;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  font-family: "Arial", sans-serif;
+  text-shadow: 2px 2px 4px #010101;
+}
+
+h3 {
+  text-align: center;
+  color: white;
+  font-family: "Arial", sans-serif;
+  text-shadow: 2px 2px 4px #010101;
+}
+
+p {
+  text-align: center;
+  color: white;
+  font-family: "Arial", sans-serif;
+  text-shadow: 2px 2px 4px #010101;
+}
+
+br {
+  text-align: center;
+  color: white;
+  font-family: "Arial", sans-serif;
+  text-shadow: 2px 2px 4px #010101;
+}
+
+li {
+  text-align: center;
+  color: white;
+  font-family: "Arial", sans-serif;
+  text-shadow: 2px 2px 4px #010101;
+}
+
+q {
+  text-align: center;
+  color: white;
+  font-family: "Arial", sans-serif;
+  text-shadow: 2px 2px 4px #010101;
+  font-weight: bold;
+  font-style: italic;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  box-shadow: 2px 2px 4px #010101;
+}
+
+div {
+  text-align: center;
+  color: white;
+  font-family: "Arial", sans-serif;
+  text-shadow: 2px 2px 4px #010101;
+}
+
+button {
+  display: inline-block;
+  background-color: #8abe8b;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-shadow: 2px 2px 4px #010101;
+  box-shadow: 2px 2px 4px #010101;
+  text-align: center;
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+script {
+  text-align: center;
+  color: white;
+  font-family: "Arial", sans-serif;
+  text-shadow: 2px 2px 4px #010101;
+}
+
+#trank-icon {
+  border-radius: 5px;
+  border: 1px solid #555;
+  background-color: rgba(255, 255, 255, 0.7);
+}

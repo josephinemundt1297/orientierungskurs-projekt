@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Style.css"> 
+    <title>Du bist im Wald</title>
+    <style>
+        #trankOption {
+            margin-top: 10px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="trank-icon-container" style="display: none;">
+        <img src="../Bilder/Kolben mit lila Flüssigkeit.avif" alt="Trank" id="trank-icon" style="width: 50px; height: 50px; position: fixed; top: 10px; right: 10px;">
+    </div>
+    <p>
+        <h1>Du bist nun tief im dunklen Wald</h1>
+    </p>
+    <p>
+        Der dunkle Pfad schluckt jedes Geräusch, jedes Licht.<br>
+        Plötzlich hörst du ein Rascheln. Zwischen den Bäumen kauert eine kleine, grünhäutige Gestalt: <br>
+        Ein Goblin. Er wühlt in einem Beutel, murmelt etwas in einer fremden Sprache. <br>
+        Er hat mich noch nicht bemerkt.
+    </p>
+    <p>
+        Wenn ich den Trank der Unsichtbarkeit trinke, kann er mich nicht sehen. <br>
+        Wenn ich ihn beobachte, kann ich vielleicht mehr über ihn erfahren.
+    </p>
+    <img src="../Bilder/Goblin-Beutel.png" alt="Goblin-Beutel" class="center-image">
+    <div class="button-container">
+        <div id="trankOption">
+            <button onclick="location.href='Pfad-8-Goblin.html'">Den Trank der Unsichtbarkeit trinken</button>
+        </div>
+        <button onclick="location.href='Pfad-9-Beobachten.html'">Den Goblin beobachten</button>
+    </div> 
+<!--Hier muss ich zwei div Elemente machen weil:
+div class = bestimmt erstmal das beides zusammen gehört
+div id = bestimmt das es sich hier um ein einmaliges Element gehört
+die id ist in diesem Fall besonders wichtig da hierüber die JS Funktion des (nicht/)aufgenommenen Tranks 
+("function trankAufnehmen() {
+    localStorage.setItem("trankAufgenommen", "true");
+}"") läuft. -->
+
+<script src="../script.js"></script>
+</body>
+</html>
