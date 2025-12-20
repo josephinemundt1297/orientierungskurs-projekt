@@ -6,6 +6,13 @@ body {
   background-attachment: fixed;
 }
 
+header {
+  text-align: center;
+  text-size-adjust: auto;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+}
+
 h1 {
   text-align: center;
   color: white;
